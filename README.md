@@ -1,2 +1,2 @@
-# hackaton
+# hackaton thinkai
 darija speech recognition
