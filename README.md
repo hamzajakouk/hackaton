@@ -12,9 +12,6 @@ Whisper is a Transformer based encoder-decoder model, also referred to as a sequ
 
 ## Prepare Environment
 We'll employ several popular Python packages to fine-tune the Whisper model. We'll use datasets to download and prepare our training data and transformers to load and train our Whisper model. We'll also require the soundfile package to pre-process audio files, evaluate and jiwer to assess the performance of our model. Finally, we'll use gradio to build a flashy demo of our fine-tuned model.
-## Setup and Dependencies
-
-To run this project, you need to install the following dependencies:
 
 ```shell
 !pip install datasets>=2.6.1
