@@ -1,6 +1,6 @@
 # hackaton thinkai
 darija speech recognition
-##Introduction
+## Introduction
 Whisper is a pre-trained model for automatic speech recognition (ASR) published in September 2022 by the authors Alec Radford et al. from OpenAI. Unlike many of its predecessors, such as Wav2Vec 2.0, which are pre-trained on un-labelled audio data, Whisper is pre-trained on a vast quantity of labelled audio-transcription data, 680,000 hours to be precise. This is an order of magnitude more data than the un-labelled audio data used to train Wav2Vec 2.0 (60,000 hours). What is more, 117,000 hours of this pre-training data is multilingual ASR data. This results in checkpoints that can be applied to over 96 languages, many of which are considered low-resource.
 
 This quantity of labelled data enables Whisper to be pre-trained directly on the supervised task of speech recognition, learning a speech-to-text mapping from the labelled audio-transcription pre-training data 
